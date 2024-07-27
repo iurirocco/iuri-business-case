@@ -13,6 +13,6 @@ confirm_password = input("Confirm your password: ")
 #if password == confirm_password:
 #    # Store the password in a temporary variable
 #    temp_password = password
-    print("Password has been saved.")
+print("Password has been saved.")
 #else:
-    print("Thank you.")
+print("Thank you.")
