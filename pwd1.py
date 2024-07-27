@@ -15,4 +15,4 @@ confirm_password = input("Confirm your password: ")
 #    temp_password = password
 print("Password has been saved.")
 #else:
-print("Thank you.")
+print("Thank you for registering.")
