@@ -20,4 +20,4 @@ if password == confirm_password:
     temp_password = hashed_password
     print("Password has been hashed and stored in a temporary variable. Hashed value is {hashed_password}")
 else:
-    print("Passwords did not match. Please try again")
+    print("Passwords did not match. Please try again!")
