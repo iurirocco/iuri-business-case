@@ -30,4 +30,4 @@ def generate_password(length):
 
 # Ask the user for the desired password length
 length = int(input("Enter the desired length for the password: "))
-print(f"Generated password is: {generate_password(length)}")
+print(f"Generated password was: {generate_password(length)}")
