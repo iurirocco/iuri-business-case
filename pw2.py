@@ -9,7 +9,7 @@ username = input("Enter your username: ")
 password = input("Enter your password: ")
 
 # Confirm password from user
-confirm_password = input("Confirm your password: ")
+confirm_password = input("Re-enter your password: ")
 
 # Check if the passwords match
 if password == confirm_password:
@@ -20,4 +20,4 @@ if password == confirm_password:
     temp_password = hashed_password
     print("Password has been hashed and stored in a temporary variable. Hashed value is {hashed_password}")
 else:
-    print("Passwords did not match. Please try one more time.")
+    print("Passwords did not match. Please try one more time")
