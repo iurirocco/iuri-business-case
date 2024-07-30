@@ -2,8 +2,8 @@ import string
 import random
 
 def generate_password(length):
-    if length < 4:  # Ensure there's enough length to include all character types
-        return "Password length should be at least 4 characters."
+    if length < 10:  # Ensure there's enough length to include all character types
+        return "Password length should be at least 10 characters."
 
     # Define the character sets
     lower = string.ascii_lowercase
