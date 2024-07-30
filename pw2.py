@@ -6,7 +6,7 @@ import bcrypt
 username = input("Enter the desired username: ")
 
 # Get password from user
-password = input("Enter the desired password: ")
+password = input("Enter the password: ")
 
 # Confirm password from user
 confirm_password = input("Re-enter password: ")
