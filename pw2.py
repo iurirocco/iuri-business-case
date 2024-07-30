@@ -3,7 +3,7 @@ import bcrypt
 # script to prompt for username, password, confirm the password, and store the hashed password
 
 # Get username from user
-username = input("Enter your username: ")
+username = input("Enter the desired username: ")
 
 # Get password from user
 password = input("Enter your password: ")
