@@ -9,7 +9,7 @@ username = input("Enter the desired username: ")
 password = input("Enter the desired password: ")
 
 # Confirm password from user
-confirm_password = input("Re-enter your password: ")
+confirm_password = input("Re-enter password: ")
 
 # Check if the passwords match
 if password == confirm_password:
